@@ -40,6 +40,13 @@ class HomePage extends StatelessWidget {
                 color: Colors.red,
                 borderRadius: BorderRadius.circular(8),
               ),
+              child: Center(
+                child: Container(
+                  height: 30,
+                  width: 30,
+                  color: Colors.blue,
+                ),
+              ),
             ),
           ],
         ),
