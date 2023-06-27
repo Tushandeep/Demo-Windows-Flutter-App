@@ -34,17 +34,17 @@ class HomePage extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             Container(
-              height: 50,
-              width: 50,
+              height: 100,
+              width: 100,
               decoration: BoxDecoration(
                 color: Colors.red,
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Center(
                 child: Container(
-                  height: 30,
-                  width: 30,
-                  color: Colors.blue,
+                  height: 50,
+                  width: 50,
+                  color: Colors.yellowAccent,
                 ),
               ),
             ),
